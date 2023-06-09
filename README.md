@@ -79,25 +79,7 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
-/* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2023 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
-/* USER CODE END Header */
-/* Includes ------------------------------------------------------------------*/
+```
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -285,8 +267,7 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
-
-
+```
 ## Output  :
 LED 0FF ![WhatsApp Image 2023-03-27 at 14 46 37](https://user-images.githubusercontent.com/120719634/227899528-860487a1-fca7-4d33-9ac9-45bc8ca61466.jpg)
 LED ON ![WhatsApp Image 2023-03-27 at 14 46 37](https://user-images.githubusercontent.com/120719634/227899630-d8901391-0e31-47f4-9908-7a71bab2e949.jpg)
